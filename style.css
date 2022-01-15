@@ -1,0 +1,25 @@
+h4 {
+	color: red;
+	font-size: 20px !important;
+}
+
+body {
+	text-align: center;
+}
+
+#takesnap:hover {
+	background-color: red;
+}
+
+canvas {
+	animation-name: backlighting;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes backlighting {
+	0% {box-shadow: 1px 1px 38px white;}
+	25% {box-shadow: 1px 1px 38px cyan;}
+	50% {box-shadow: 1px 1px 38px blue;}
+	100% {box-shadow: 1px 1px 38px rgb(42, 0, 156);}
+}
